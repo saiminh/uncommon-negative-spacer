@@ -12,7 +12,7 @@
   },
   "attributes": {
     "negativeSpaceBefore": {
-      "type": "number",
+      "type": "string",
       "default": "0"
     },
     "unitBefore": {
@@ -20,7 +20,7 @@
       "default": "px"
     },
     "negativeSpaceAfter": {
-      "type": "number",
+      "type": "string",
       "default": "0"
     },
     "unitAfter": {

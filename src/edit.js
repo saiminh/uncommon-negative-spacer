@@ -68,6 +68,10 @@ export default function Edit({ attributes, setAttributes }) {
         </div>
         
       </InspectorControls>
+      <div class="label"> This is the negative spacer block. It will add negative space before and after the block on the frontend: 
+            top: -{attributes.negativeSpaceBefore}{attributes.unitBefore},
+            bottom: -{attributes.negativeSpaceAfter}{attributes.unitAfter}
+      </div>
         <InnerBlocks />
 		</div>
 	);
